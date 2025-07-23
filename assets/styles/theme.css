@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Bricolage Grotesque", sans-serif;
+}
+
+:root{
+	--green: #2AB70D;
+}
+/*Butons*/
+.cta-main{
+	padding: 10px;
+	width: 200px;
+	color: grey;
+	background: white;
+}
+.cta-light{
+	padding: 10px;
+	width: 200px;
+	border: 0.5px solid white;
+	color: white;
+}
+.why-icon{
+	fill: white;
+}
+.reup-success{
+	background-color: var(--green) !important;
+	color: white;
+	font-weight: bold;
+	padding-bottom: 15px;
+}
+.reup-success:hover{
+	background-color: grey !important;
+	color: white;
+}
+.final-footer{
+	margin: 10px 0px;
+}
+thead{
+	padding: 20px;
+	background: var(--green);
+	color: white;
+	border: none !important;
+}
+th, tr, td{
+	padding: 10px 25px;
+}

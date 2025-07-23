@@ -1,0 +1,73 @@
+body{
+		background: #2AB70D;
+background: linear-gradient(180deg, rgba(42, 183, 13, 1) 0%, rgba(23, 105, 5, 1) 100%);
+background-size: cover;
+background-repeat: no-repeat;
+	padding: 50px;
+}
+a{
+	color: var(--green);
+	text-decoration: none;
+	font-weight: bold;
+}
+a:hover{
+	color: grey;
+}
+#login-body{
+	margin: 100px;
+	background: white ;
+	border-radius: 20px;
+	padding: 100px 20px;
+}
+.reup-login-input{
+	border: 0.3px solid var(--green) !important;
+	width: 300px;
+	padding: 10px;
+	margin: 10px 0px;
+}
+.reup-login-submit{
+	background: #2AB70D;
+	width:300px;
+	color: white;
+}
+.reup-login-submit:hover{
+	background: grey;
+	color: white;
+	font-weight: bold;
+}
+h3{
+	color: grey;
+}
+.slide-content{
+	border-radius: 20px;
+}
+ #slideshow {
+      width: 100%;
+      max-width: 600px;
+      height: 350px;
+      overflow: hidden;
+      position: relative;
+      margin: auto;
+      border-radius: 20px;
+    }
+
+    #slideshow img {
+      width: 100%;
+      height: auto;
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: 0;
+      transition: opacity 1s ease-in-out;
+    }
+
+    #slideshow img.active {
+      opacity: 1;
+    }
+
+    .login-content{
+    	padding: 0px 60px;
+    }
+    small{
+    	color: grey;
+    }

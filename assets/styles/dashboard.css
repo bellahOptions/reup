@@ -1,0 +1,25 @@
+.landing{
+	background-image: url('./assets/images/background-08.jpg');
+	background: #2AB70D;
+background: linear-gradient(180deg, rgba(42, 183, 13, 1) 0%, rgba(23, 105, 5, 1) 100%);
+}
+.hero{
+	padding: 70px 100px 100px 100px;
+}
+.how-it-works{
+	padding: 100px;
+}
+.why-us{
+	color: white;
+	padding: 100px 50px;
+}
+#whyus{
+	margin: 0px 40px;
+	border-radius: 20px;
+}
+.footer{
+	border-top: 0.7px solid var(--green);
+	padding: 20px;
+	color: grey;
+	margin-top: 50px;
+}
